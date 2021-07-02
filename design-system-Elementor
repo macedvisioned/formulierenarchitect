@@ -1,0 +1,108 @@
+Design system Elementor
+
+Ik heb voor mijn website www.visioned.net gebruik gemaakt van de global colors en typography van Elementor.
+Over het algemeen beperk ik met tot de volgende thema's in WordPress in combinatie met Elementor.
+Dit zijn Hello, Neve, Hestia of Twenty-twenty-one.
+
+element.style {
+}
+.elementor-kit-5866 h1 {
+    color: #663366;
+    font-family: "Noto Sans", Open Sans;
+}
+.elementor-heading-title {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+.elementor *, .elementor :after, .elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in-content, .info-title, .card-title, .page-header.header-small .hestia-title, .page-header.header-small .title, .widget h5, .hestia-title, .title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading, .carousel h1.hestia-title, .carousel h2.title, .carousel span.sub-title, .hestia-about h1, .hestia-about h2, .hestia-about h3, .hestia-about h4, .hestia-about h5 {
+    font-family: Noto Sans;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.618;
+}
+.hestia-title.title-in-content, .page-content-wrap h1, .single-post-wrap h1, h1 {
+    font-size: 42px;
+}
+h1, .h1 {
+    font-size: 36px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+* {
+    -webkit-tap-highlight-color: rgba(255,255,255,0);
+    -webkit-tap-highlight-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+user agent stylesheet
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.elementor {
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+}
+.elementor-kit-5866 {
+    --e-global-color-primary: #663366;
+    --e-global-color-secondary: #000000;
+    --e-global-color-text: #000000;
+    --e-global-color-accent: #61CE70;
+    --e-global-color-6f260b84: #4054B2;
+    --e-global-color-7d792696: #23A455;
+    --e-global-color-310fb354: #000;
+    --e-global-color-7026e2f: #FFF;
+    --e-global-color-5119dd6a: #025928;
+    --e-global-color-f74f81a: #CC0100;
+    --e-global-color-0e877f8: #C3B0C3;
+    --e-global-typography-primary-font-family: "Trebuchet MS";
+    --e-global-typography-primary-font-size: 1.4em;
+    --e-global-typography-primary-font-weight: 600;
+    --e-global-typography-secondary-font-family: "Trebuchet MS";
+    --e-global-typography-secondary-font-size: 1.3em;
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-text-font-family: "Trebuchet MS";
+    --e-global-typography-text-font-size: 1em;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-accent-font-family: "PT Sans Caption";
+    --e-global-typography-accent-font-weight: 500;
+    color: #54595F;
+    font-family: "Noto Sans", Open Sans;
+    font-style: normal;
+}
