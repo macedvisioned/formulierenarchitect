@@ -4,3 +4,24 @@ Zo blijft de code clean en kun je voor de global colors gebruik maken van de des
 
 Global colors in het design system vind je hier.
 [https://elementor.com/blog/design-system/]
+
+-in concept-
+
+This place is our platform for the NL Design System community to develop new patterns and components. You will find the community backlog in the Issues list. The overview of current developments in the project boards. For example:
+
+Design Tokens
+Infrastructure
+Components
+Issues should remain open as long as they remain relevant for the project. This way it is possible to assign maintainers for every feature. Bug reports and other implementation specific tasks are best opened and discussed in the repository where the code is maintained, for example in nl-design-system/web-component-poc.
+
+Join us on Slack via the invite form on praatmee.codefor.nl in the following channels:
+
+#nl-design-system
+#nl-design-system-content
+#nl-design-system-designers
+#nl-design-system-developers
+Code of Conduct
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community. Read our Code of Conduct if you haven't already.
+
+License
+This project is free and open-source software licensed under the European Union Public License (EUPL) v1.2.
