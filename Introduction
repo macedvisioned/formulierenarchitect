@@ -1,0 +1,6 @@
+Het ontwerpen van formulieren volgens de WCAG richtlijnen vergt een goed ontwerpsysteem. Het gebruik van Design Tokens zie je steeds meer en kan een steentje bijdragen om dit zo makkelijk mogelijk te maken zodat het gebruikt kan worden in andere systemen.
+Als basis voor formulieren gebruik ik de HTML 5 (WCAG) standaarden en gebruik ook de Aria attributen zoals ze door de MDN zijn beschrijven.
+Zo blijft de code clean en kun je voor de global colors gebruik maken van de design tokens volgens het lightning principe.
+
+Global colors in het design system vind je hier.
+[https://elementor.com/blog/design-system/]
