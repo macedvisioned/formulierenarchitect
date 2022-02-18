@@ -37,4 +37,4 @@ Het huidige design systeem is gericht op Material design maar kan hier en daar n
     font-style: normal;
 }
 ```
-Meer informatie in is te lezen in de **[inhoudsopgave](https://hackmd.io/Ap6wK2GGQfujuD35IvGhHQ?both)** van de opzet van formulieren.
+Meer informatie in is te lezen in de **[inhoudsopgave](https://github.com/macedvisioned/formulierenarchitect/blob/main/basisstructuur.md)** van de opzet van formulieren.
