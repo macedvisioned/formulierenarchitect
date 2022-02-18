@@ -1,40 +1,81 @@
-# formulierenarchitect
-Dit is het formulieren design systeem van Visioned.net. Een generiek systeem conform de WCAG richtlijnen.
+# <h1>Basisstructuur ontwerp html formulieren in Elementor Pro</h1>
 
-Dit systeem is opgezet voor het juist gebruik van elementen in het formulierontwerp in Elementor Pro.
-Het huidige design systeem is gericht op Material design maar kan hier en daar nog verbeterd worden. Hieronder de voorbeeld design tokens in Elementor aangepast voor www.visioned.net
+# Voorbeeldformulier
+![](https://i.imgur.com/EW9vmj3.png)
+
+
+In de kop van het formulier het logo met skiplink
 ```
-.elementor-kit-5866 {
-    --e-global-color-primary: #663366;
-    --e-global-color-secondary: #000000;
-    --e-global-color-text: #000000;
-    --e-global-color-accent: #61CE70;
-    --e-global-color-6f260b84: #4054B2;
-    --e-global-color-7d792696: #23A455;
-    --e-global-color-310fb354: #000;
-    --e-global-color-7026e2f: #FFF;
-    --e-global-color-5119dd6a: #025928;
-    --e-global-color-f74f81a: #CC0100;
-    --e-global-color-0e877f8: #C3B0C3;
-    --e-global-color-0dce697: #F0F0F0;
-    --e-global-color-e5ffcce: #FFFFFF;
-    --e-global-color-5ce1c24: #FFFFFF;
-    --e-global-color-e700711: #FFFFFF;
-    --e-global-color-6c42eb5: #FFFFFF;
-    --e-global-typography-primary-font-family: "Trebuchet MS";
-    --e-global-typography-primary-font-size: 1.4em;
-    --e-global-typography-primary-font-weight: 600;
-    --e-global-typography-secondary-font-family: "Trebuchet MS";
-    --e-global-typography-secondary-font-size: 1.3em;
-    --e-global-typography-secondary-font-weight: 400;
-    --e-global-typography-text-font-family: "Trebuchet MS";
-    --e-global-typography-text-font-size: 1em;
-    --e-global-typography-text-font-weight: 400;
-    --e-global-typography-accent-font-family: "PT Sans Caption";
-    --e-global-typography-accent-font-weight: 500;
-    color: #54595F;
-    font-family: "Noto Sans", Open Sans;
-    font-style: normal;
-}
+<!--Skiplink-->
+Added to issue [https://github.com/nl-design-system/backlog/issues/74](url)
+<h2>Skiplink to go to the maincontent</h2>
+<a href="#subheader" class="bypass" tabindex="0">Ga direct naar inhoud</a>
+<!--end main-->
+
+<a class="skiplink" href="#example_content">
+        <span class="skiplink__text">Ga direct naar inhoud</span>
+    </a>
 ```
-Meer informatie in is te lezen in de **[inhoudsopgave](https://hackmd.io/Ap6wK2GGQfujuD35IvGhHQ?both)** van de opzet van formulieren.
+# <h2>Formuliernaam</h2>
+Bij voorkeur de H1 tag mits het een stand alone html pagina is anders een H2 tag als dit embedded is in een html pagina.
+Hieronder een stuk voorbeeldcode met Figma design tokens.
+<b>Voorbeeld zoals gemaakt in get NL Design systeem.</b>
+de token $utrecht is hier gerelateerd aan een van de gemeentes. Wijzig de tekst als het dollarteken in jouw projectnaam
+```
+      "heading-1": {
+        "value": {
+          "fontFamily": "$utrecht.typography.sans-serif.font-family",
+          "fontWeight": "$utrecht.typography.weight-scale.bold",
+          "lineHeight": "$utrecht.typography.line-height.sm",
+          "fontSize": "$utrecht.typography.scale.3xl",
+          "letterSpacing": "$utrecht.typography.letter-spacing.normal",
+          "paragraphSpacing": "0",
+          "textDecoration": "none",
+          "textCase": "none"
+        },
+        "description": "Header h1 layout",
+        "type": "typography"
+      },
+```
+# <h2>Header van het formulier</h2>
+Sectie kop is altijd de H2 tag met attribuut en bladwijzers om een navigatie in het formulier te creëren. Dit is handig voor een meerstappen formulier.
+
+In de header van het formulier staan:
+* een korte instructie 
+* een sectie NAW of gebruikersgegevens, dus wie de invuller is van het formulier
+* In de header staan dan ook de componenten om in te vullen van wie het formulier afkomstig is.
+* een navigatie (bladwijzers), de stappen in het proces, bij voorkeur horizontaal.
+```
+<div id="header" role="header"> <!--add formfields and instructions here...-->
+
+```
+
+# <h2>De formulierinhoud</h2>
+# <h3>Secties binnen een formulier</h3> 
+Let op: H3 binnen de h2 sectie.
+In deze sectie komt het daadwerkelijke formulier met daarin de vragen.
+Hieronder vallen dan tussensecties met de H4 tag waar zich meestal conditionele inhoud bevindt.
+Nadere uitleg van de componenten in het volgende hoofdstuk:
+```
+<div id="main" role="main"> <!--add formfields here...-->
+
+
+```
+
+# <h2>Footer gedeelte </h2>
+De footer is expliciet voor:
+* parafenroute
+* ondertekening
+* instructie voor verzending 
+```
+<div id="footer" role="footer"> <!--add formfields and additional information here...-->
+
+
+```
+
+
+---
+
+
+# <h2>Hulp bij het ontwerpproces van een formulier</h2>
+[https://www.visioned.net/checklist-hoe-maak-ik-een-toegankelijk-formulier/](https://)
