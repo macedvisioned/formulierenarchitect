@@ -1,4 +1,4 @@
-# Basisstructuur ontwerp html formulieren in Elementor Pro
+# Basisstructuur ontwerp html formulieren
 
 # Voorbeeldformulier
 
