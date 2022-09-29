@@ -158,4 +158,10 @@ term dt
 
 ## Hulp bij het ontwerpproces van een formulier
 
+**Richtlijnen voor het ontwerp van formulieren:**
+
+[https://nldesignsystem.nl/docs/richtlijnen/formulieren/](https://nldesignsystem.nl/docs/richtlijnen/formulieren/)
+
+**Checklist voor het gebruik bij slim formulierontwerp**
+
 [https://www.visioned.net/checklist-hoe-maak-ik-een-toegankelijk-formulier/](https://)
