@@ -1,10 +1,11 @@
-# <h1>Basisstructuur ontwerp html formulieren in Elementor Pro</h1>
+# Basisstructuur ontwerp html formulieren in Elementor Pro
 
 # Voorbeeldformulier
+
 ![](https://i.imgur.com/EW9vmj3.png)
 
-
 In de kop van het formulier het logo met skiplink
+
 ```
 <!--Skiplink-->
 Added to issue [https://github.com/nl-design-system/backlog/issues/74](url)
@@ -16,11 +17,14 @@ Added to issue [https://github.com/nl-design-system/backlog/issues/74](url)
         <span class="skiplink__text">Ga direct naar inhoud</span>
     </a>
 ```
-# <h2>Formuliernaam</h2>
-Bij voorkeur de H1 tag mits het een stand alone html pagina is anders een H2 tag als dit embedded is in een html pagina.
-Hieronder een stuk voorbeeldcode met Figma design tokens.
-<b>Voorbeeld zoals gemaakt in get NL Design systeem.</b>
+
+## Formuliernaam
+
+Bij voorkeur de H1 tag mits het een stand alone html pagina is anders een H2 tag als dit embedded is in een html pagina.  
+Hieronder een stuk voorbeeldcode met Figma design tokens.  
+**Voorbeeld zoals gemaakt in get NL Design systeem.**  
 de token $utrecht is hier gerelateerd aan een van de gemeentes. Wijzig de tekst als het dollarteken in jouw projectnaam
+
 ```
       "heading-1": {
         "value": {
@@ -37,16 +41,18 @@ de token $utrecht is hier gerelateerd aan een van de gemeentes. Wijzig de tekst 
         "type": "typography"
       },
 ```
-# <h2>Header van het formulier</h2>
+
+## Header van het formulier
+
 Sectie kop is altijd de H2 tag met attribuut en bladwijzers om een navigatie in het formulier te creëren. Dit is handig voor een meerstappen formulier.
 
 In de header van het formulier staan:
-* een korte instructie 
-* een sectie NAW of gebruikersgegevens, dus wie de invuller is van het formulier
-* In de header staan dan ook de componenten om in te vullen van wie het formulier afkomstig is.
-* een navigatie (bladwijzers), de stappen in het proces, bij voorkeur horizontaal.
-```
-<div id="header" role="header"> <!--add formfields and instructions here...-->
+
+*   een korte instructie
+*   een sectie NAW of gebruikersgegevens, dus wie de invuller is van het formulier
+*   In de header staan dan ook de componenten om in te vullen van wie het formulier afkomstig is.
+*   een navigatie (bladwijzers), de stappen in het proces, bij voorkeur horizontaal.  
+    \`\`\`
 
 ```
 
@@ -57,8 +63,6 @@ In deze sectie komt het daadwerkelijke formulier met daarin de vragen.
 Hieronder vallen dan tussensecties met de H4 tag waar zich meestal conditionele inhoud bevindt.
 Nadere uitleg van de componenten in het volgende hoofdstuk:
 ```
-<div id="main" role="main"> <!--add formfields here...-->
-
 
 ```
 
@@ -68,11 +72,24 @@ De footer is expliciet voor:
 * ondertekening
 * instructie voor verzending 
 ```
-<div id="footer" role="footer"> <!--add formfields and additional information here...-->
-
 
 ```
 <h2>Tabelweergave in samenvatting formulier</h2>
+```
+
+| Homework | Exams | Projects |
+| --- | --- | --- |
+| 1 | 2 | Final |
+| 15% | 15% | 15% |
+
+Semantic Elements to use instead of ARIA's roles
+
+ARIA Role Semantic Element
+
+header h1
+
+header h6
+
 ```
 <table>
    <tr>
@@ -129,9 +146,14 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Table_Role
       <span role="cell">dt</span>
     </div>
   </div>
+```
+
+rowgroup thead
+
+term dt
 
 ---
 
+## Hulp bij het ontwerpproces van een formulier
 
-# <h2>Hulp bij het ontwerpproces van een formulier</h2>
 [https://www.visioned.net/checklist-hoe-maak-ik-een-toegankelijk-formulier/](https://)
