@@ -164,4 +164,4 @@ term dt
 
 **Checklist voor het gebruik bij slim formulierontwerp**
 
-[https://www.visioned.net/checklist-hoe-maak-ik-een-toegankelijk-formulier/](https://)
+https://www.visioned.net/checklist-hoe-maak-ik-een-toegankelijk-formulier/
