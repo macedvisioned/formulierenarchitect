@@ -95,26 +95,26 @@ Bron: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tabl
 ```
 <table>
    <tr>
-     <th rowspan="2" id="h" tabindex="1">Homework</th>
-     <th colspan="3" id="e" tabindex="2">Exams</th>
-     <th colspan="3" id="p" tabindex="3">Projects</th>
+     <th rowspan="2" id="h" tabindex="0">Homework</th>
+     <th colspan="3" id="e" tabindex="0">Exams</th>
+     <th colspan="3" id="p" tabindex="0">Projects</th>
    </tr>
    <tr>
-     <th id="e1" headers="e" tabindex="4">1</th>
-     <th id="e2" headers="e" tabindex="5">2</th>
-     <th id="ef" headers="e" tabindex="6">Final</th>
-     <th id="p1" headers="p" tabindex="7">1</th>
-     <th id="p2" headers="p" tabindex="8">2</th>
-     <th id="pf" headers="p" tabindex="9">Final</th>
+     <th id="e1" headers="e" tabindex="0">1</th>
+     <th id="e2" headers="e" tabindex="0">2</th>
+     <th id="ef" headers="e" tabindex="0>Final</th>
+     <th id="p1" headers="p" tabindex="0">1</th>
+     <th id="p2" headers="p" tabindex="0">2</th>
+     <th id="pf" headers="p" tabindex="0>Final</th>
    </tr>
    <tr>
-    <td headers="h" tabindex="10">15%</td>
-    <td headers="e e1" tabindex="11">15%</td>
-    <td headers="e e2" tabindex="12">15%</td>
-    <td headers="e ef" tabindex="13">20%</td>
-    <td headers="p p1" tabindex="14">10%</td>
-    <td headers="p p2" tabindex="15">10%</td>
-    <td headers="p pf" tabindex="16">15%</td>
+    <td headers="h" tabindex="0">15%</td>
+    <td headers="e e1" tabindex="0">15%</td>
+    <td headers="e e2" tabindex="0">15%</td>
+    <td headers="e ef" tabindex="0">20%</td>
+    <td headers="p p1" tabindex="0">10%</td>
+    <td headers="p p2" tabindex="0">10%</td>
+    <td headers="p pf" tabindex="0">15%</td>
    </tr>
   </table>
   
@@ -131,19 +131,19 @@ https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Table_Role
     </div>
   </div>
   <div role="rowgroup">
-    <div role="row" aria-rowindex="11">
+    <div role="row" aria-rowindex="0">
       <span role="cell">header</span>
       <span role="cell">h1</span>
     </div>
-    <div role="row" aria-rowindex="16">
+    <div role="row" aria-rowindex="0">
       <span role="cell">header</span>
       <span role="cell">h6</span>
     </div>
-    <div role="row" aria-rowindex="18">
+    <div role="row" aria-rowindex="0">
       <span role="cell">rowgroup</span>
       <span role="cell">thead</span>
     </div>
-    <div role="row" aria-rowindex="24">
+    <div role="row" aria-rowindex="0">
       <span role="cell">term</span>
       <span role="cell">dt</span>
     </div>
@@ -160,7 +160,7 @@ term dt
 
 **Richtlijnen voor het ontwerp van formulieren:**
 
-[https://nldesignsystem.nl/docs/richtlijnen/formulieren/](https://nldesignsystem.nl/docs/richtlijnen/formulieren/)
+[https://github.com/macedvisioned/documentatie/tree/main/docs/richtlijnen/formulieren/aanpak]
 
 **Checklist voor het gebruik bij slim formulierontwerp**
 
