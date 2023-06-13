@@ -8,7 +8,7 @@ In de kop van het formulier het logo met skiplink
 
 ```
 <!--Skiplink-->
-Added to issue [https://github.com/nl-design-system/backlog/issues/74](url)
+Added to issue [https://github.com/nl-design-system/backlog/issues/74]
 <h2>Skiplink to go to the maincontent</h2>
 <a href="#subheader" class="bypass" tabindex="0">Ga direct naar inhoud</a>
 <!--end main-->
@@ -16,6 +16,32 @@ Added to issue [https://github.com/nl-design-system/backlog/issues/74](url)
 <a class="skiplink" href="#example_content">
         <span class="skiplink__text">Ga direct naar inhoud</span>
     </a>
+
+Voorbeeldcode
+Hieronder zie je met welke codes je een skiplink in je webpagina kunt inbouwen.
+
+HTML
+<div class="skiplink"><a href="#content">Naar hoofdinhoud</a></div>
+CSS
+.skiplink a {
+  position: absolute;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+.skiplinks a:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  clip: auto;
+}
+Tested with Elementor Pro on this website [www.edboonenterprise.nl]
+In de basis goed echter nog een niet opgelost issue binnen Elementor Pro. Elementor verwijst naar #content, maar dit moet zijn #main
+Contributor:  Stichting Accessibility
+[https://www.accessibility.nl/kennis/zo-zet-je-skiplinks-voor-een-optimale-navigatie]
 ```
 
 ## Formuliernaam
