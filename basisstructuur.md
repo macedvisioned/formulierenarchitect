@@ -48,7 +48,7 @@ Contributor:  Stichting Accessibility
 
 Bij voorkeur de H1 tag mits het een stand alone html pagina is anders een H2 tag als dit embedded is in een html pagina.  
 Hieronder een stuk voorbeeldcode met Figma design tokens.  
-**Voorbeeld zoals gemaakt in get NL Design systeem.**  
+**Voorbeeld zoals gemaakt in het NL Design systeem.**  
 de token $utrecht is hier gerelateerd aan een van de gemeentes. Wijzig de tekst als het dollarteken in jouw projectnaam
 
 ```
@@ -78,7 +78,6 @@ In de header van het formulier staan:
 *   een sectie NAW of gebruikersgegevens, dus wie de invuller is van het formulier
 *   In de header staan dan ook de componenten om in te vullen van wie het formulier afkomstig is.
 *   een navigatie (bladwijzers), de stappen in het proces, bij voorkeur horizontaal.  
-    \`\`\`
 
 ```
 
